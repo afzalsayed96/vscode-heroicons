@@ -44,11 +44,6 @@ export function activate(context: vscode.ExtensionContext) {
 				context.subscriptions
 			);
 		}
-
-			
-			// const filePath: vscode.Uri = vscode.Uri.file(path.join(context.extensionPath, 'src', 'public', 'index.html'));
-			// panel.webview.html = fs.readFileSync(filePath.fsPath,'utf8');
-
 	});
 
 	context.subscriptions.push(disposable);
