@@ -64,6 +64,7 @@ function getWebviewContent() {
 			height: 100vh;
 			width: 100vw;
 			margin: 0;
+			padding: 0;
 			border: 0;
 			outline: none;
 		}
